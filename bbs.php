@@ -36,7 +36,7 @@
 </head>
 <body>
   <h1>掲示板</h1>
-  <p><a href="index.php">トップページに戻る</a></p>
+  <p><a href="index.html">トップページに戻る</a></p>
   <form action="write.php" method="post">
     <p>名前：<input type="text" name="name" value= "<?php echo isset($_COOKIE['name'])? $_COOKIE['name'] : "" ?>"></p>
     <p>タイトル：<input type="text" name="title"></p>
