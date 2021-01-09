@@ -1,5 +1,5 @@
 <?php
-	include 'includes/login.php';
+	
 	// データの受取
 	$name = $_POST['name'];
 	$title = $_POST['title'];
